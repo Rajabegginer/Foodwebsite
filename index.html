@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>YAAR FOODIE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+</head>
+<body>
+
+<button onclick="navon()" id="ham">
+ <div class="ham-burger">
+        <div class="ham-line"></div>
+        <div class="ham-line"></div>
+        <div class="ham-line"></div>
+ </div>
+</button>
+
+<nav id="nav-bar">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li class="cross"><a onclick="navoff()">X</a></li>
+</nav>
+
+
+
+<section id="home">
+<h1 class="h-primary">YAAR FOODIE</h1>
+<p class="h-primary">PIZZA</p>
+<a href="#menu" class="btn"> OUR MENU</a>
+
+    <span class="timing">OPEN FROM 10AM TO 12PM</span>
+
+
+</section>
+
+<section id="menu">
+    <h1>THE MENU</h1>
+    <div class="menu-main">
+        <div class="menu-box">
+
+           <div class="menu-bar">
+            <button class="h-secondary" onclick="menu()">PIZZA</button>
+            <button class="h-secondary" onclick="menu2()">BURGER</button>
+            <button class="h-secondary" onclick="menu3()">DRINKS</button>
+           </div>
+
+           <div class="item-box" id="pizza">
+
+            <div class="menu-item" >
+                <span>CHICKEN PIZZA <span class="special hot">HOT</span></span><span class="price">RS 700</span>
+                <p class="l-gray">CHICKEN, CHEESE</p>
+            </div>
+        
+            <div class="menu-item">
+               <span> CHICKEN CHESSE PIZZA</span><span class="price">RS 750</span>
+                <p class="l-gray">CHICKEN, CHEESE</p>
+            </div>
+            
+            <div class="menu-item">
+               <span> THIN CURST CHICKEN PIZZA <span class="special">POPULAR</span></span><span class="price">RS 800</span>
+                <p class="l-gray">CHICKEN, THIN CURST, CHEESE</p>
+            </div>
+            <div class="menu-item">
+               <span> VEG PIZZA</span><span class="price">RS 600</span>
+                <p class="l-gray">VEG, CHEESE</p>
+            </div>
+            <div class="menu-item">
+               <span> CHICKEN TANDOORI PIZZA</span><span class="price">RS 900</span>
+                <p class="l-gray">CHICKEN TANDOORI, CHEESE</p>
+            </div>
+            <div class="menu-item">
+               <span> CHEESE PIZZA</span><span class="price">RS 650</span>
+                <p class="l-gray">LOT'S OF CHEESE</p>
+            </div>
+
+        </div>
+
+        <div class="item-box" id="burger">
+
+            <div class="menu-item">
+                <span>CHICKEN BURGER</span><span class="price">RS 180</span>
+                <p class="l-gray">CHICKEN, CHEESE</p>
+            </div>
+        
+            <div class="menu-item">
+               <span> ZINGER BURGER <span class="special">POPULAR</span></span><span class="price">RS 250</span>
+                <p class="l-gray">CHICKEN, ZINGER, CHEESE</p>
+            </div>
+            
+            <div class="menu-item">
+               <span> CHICKEN SANDWISH</span><span class="price">RS 200</span>
+                <p class="l-gray">CHICKEN, EGG, CHEESE</p>
+            </div>
+            <div class="menu-item">
+               <span> VEG BURGER</span><span class="price">RS 150</span>
+                <p class="l-gray">VEG, CHEESE</p>
+            </div>
+            <div class="menu-item">
+               <span> CHICKEN TANDOORI BURGER <span class="special hot">HOT</span></span><span class="price">RS 280</span>
+                <p class="l-gray">CHICKEN TANDOORI, CHEESE</p>
+            </div>
+            <div class="menu-item">
+               <span> CHEESE BURGER</span><span class="price">RS 220</span>
+                <p class="l-gray">LOT'S OF CHEESE</p>
+            </div>
+            
+        </div>
+
+        <div class="item-box" id="drinks">
+
+            <div class="menu-item">
+                <span>COKA COLA</span><span class="price">RS 130</span>
+                <p class="l-gray">1.5ltr</p>
+            </div>
+        
+            <div class="menu-item">
+               <span> 7 Up</span><span class="price">RS 130</span>
+                <p class="l-gray">1.5ltr</p>
+            </div>
+            
+            <div class="menu-item">
+               <span> COKA COLA</span><span class="price">RS 90</span>
+                <p class="l-gray">1ltr</p>
+            </div>
+            <div class="menu-item">
+               <span> 7 UP</span><span class="price">RS 90</span>
+                <p class="l-gray">1ltr</p>
+            </div>
+            <div class="menu-item">
+               <span> FANTA</span><span class="price">RS 90</span>
+                <p class="l-gray">1ltr</p>
+            </div>
+            <div class="menu-item">
+               <span> PEPSI</span><span class="price">RS 90</span>
+                <p class="l-gray">1ltr</p>
+            </div>
+
+        </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="about-container">
+<h2>ABOUT</h2>
+<div class="text">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores praesentium quo ab hic laborum vel, iure ut quibusdam. Nisi.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores praesentium quo ab hic</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+<p><b>THE CHEF? </b> MR.ZULFIQAR HIMSELF</p>
+
+</div>
+
+<img src="img/bg4.jpg" alt="">
+
+
+<h2>OPENING HOURS</h2>
+<div class="clearfix">
+<div class="date">
+    <p>MONDAY 10.00-12.00</p>
+    <p>TUESDAY 10.00-12.00</p>
+    <p>WEDNESDAY 10.00-12.00</p>
+</div>
+<div class="date">
+    <p>THURSDAY 10.00-12.00</p>
+    <p>FRI & SAT CLOSED</p>
+    <p>SUNDAY 10.00-12.00</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<div class="img">
+    <img src="img/f4.jpg" alt="">
+    
+</div>
+
+<section id="contact">
+
+<div class="form-container">
+    <h2>CONTACT</h2>
+
+    <p> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <h3><b> Reserve</b> a table, ask for today's special or just send us a message:</h3>
+
+    <form action="">
+        <input type="text" placeholder="YOUR NAME">
+        <input type="number" placeholder="HOW MANY PEOPLE">
+        <input type="datetime-local" placeholder="DATE AND TIME" value="2022-08-16T20:00">
+        <input type="text" placeholder="MESSAGE \ SPECIAL REQUIREMENTS">
+        <input type="submit" class="sub-btn" value="SEND MESSAGE">
+    </form>
+
+</section>
+
+
+</div>
+
+<footer>
+    <h2>&copy;2022 ALL RIGHTS RESERVED</h2>
+</footer>
+
+<script src="js/js.js"></script>
+
+</body>
+</html>
